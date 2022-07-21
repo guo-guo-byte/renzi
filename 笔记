@@ -1,0 +1,8 @@
+; 1. 请注释掉**mock数据**的部分，删除根目录下的mock文件夹，我们开发的时候用不到模拟数据，
+
+; 2. 同时，请注释掉**vue.config.js**中的 before: require('./mock/mock-server.js')
+; 3.注释掉main.js里面的
+;  if (process.env.NODE_ENV === 'production') {
+; //   const { mockXHR } = require('../mock')
+; //   mockXHR()
+; // }
